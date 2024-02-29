@@ -1,0 +1,63 @@
+<!--
+File: névjegy.html
+Author: VTG
+Copyright: 2024, VTG
+Group: Szoft I/N/1
+Date: 2024-2-29
+Github: https://github.com/valaki2004/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+        
+        <body class="bg-success ">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                       <header>
+                            <h1>Triangle</h1>
+                       </header> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <nav>
+                            <ul class="nav-item">
+                                <a href="index.html" class="nav-link">Index</a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <main>
+                            <h2>Hárómszög terület számitása</h2>
+                            <div class="triangleForm bg-secondary">
+                                <div class="input form-control bg-primary">
+                                    <label for="base" class="form-label">Alap</label>
+                                    <input type="Alap"id="base"class="form-control" required>
+                                </div>
+                                <div class="input form-control bg-primary">
+                                    <label for="height" class="form-label">Magasság</label>
+                                    <input type="Magasság"id="height"class="form-control"  required>
+                                </div>
+                                <div><button id="Gomb" class="Gomb btn btn-danger mt-3 mb-3 d-grid gap-2 col-2 mx-auto">Számitás</button></div>
+                                <div class="input form-control bg-primary">
+                                    <label for="area" class="form-label ">Eredmény</label>
+                                    <input type="Eredmény"id="area"class="form-control"  readonly>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <script src="main.js"></script>
+</html>
